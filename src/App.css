@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Wb Modelica Regular', sans-serif;
+}
+
+@font-face {
+  font-family: 'Wb Modelica Regular';
+  src: url('/fonts/BwModelica-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Wb Modelica Bold';
+  src: url('/fonts/BwModelica-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wb Modelica Medium';
+  src: url('/fonts/BwModelica-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

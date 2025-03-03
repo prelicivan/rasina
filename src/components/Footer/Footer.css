@@ -1,0 +1,15 @@
+.footer-component {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+    height: 8vh;
+    background-color: #022552;
+    color: #fff;
+    border-top: #B2C3CD;
+}
+
+.footer-component p {
+    font-size: 0.9rem;
+    color: #fff;
+}

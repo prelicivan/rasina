@@ -1,0 +1,113 @@
+.about-us-component {
+    position: relative;
+    overflow: hidden; /* Prevents unwanted overflow */
+}
+
+/* .about-us-component::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/pictures/About Image-1.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1; 
+    z-index: -1;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 0 1rem 0 1rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-us-component__image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 40px; 
+    padding: 2rem;
+}
+
+.about-us-component__text {
+    max-width: 90%;
+    text-align: left;
+    padding-left: 0.6rem;
+    padding-top: 1rem;
+    align-self: flex-start;
+    justify-self: flex-start;
+    color: #022552;
+}
+
+.whiteFont {
+    color: #fff;
+}
+
+.about-us-component__text p {
+    font-size: clamp(1rem, 0.3vw + 1rem, 12rem);  
+    line-height: 1.8;
+}
+
+.about-us-component__stats {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.stat {
+    text-align: center;
+    padding: 0.9rem;
+}
+
+.stat h3 {
+    font-size: clamp(1rem, 0.9vw + 1rem, 12rem);  
+    margin-bottom: 1rem;
+}
+
+.stat p {
+    font-size: clamp(1.2rem, 2vw + 1rem, 12rem);  
+    font-weight: bold;
+}
+
+
+@media (max-width: 1224px) {
+    .about-us-component::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/pictures/About Image-1.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.03; 
+        z-index: -1;
+    }
+
+    .about-us-component__image {
+        max-width: 0vw;
+        max-height: 0vh;
+    }
+
+    .about-us-component__text {
+        max-width: 98%;    
+        margin-top: 0.5rem;
+        padding: 2rem 2rem 1rem 2rem;
+        justify-items: center;
+        text-align: justify;
+    }
+} 
+

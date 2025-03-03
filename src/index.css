@@ -1,0 +1,4 @@
+h3 {
+    font-size: clamp(3rem, 2vw + 1rem, 12rem);  
+    margin-bottom: 1rem;
+  }

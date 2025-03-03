@@ -1,0 +1,34 @@
+h2 {
+    font-size: clamp(1.5rem, 1vw + 1rem, 10rem);  
+    color: #022552;
+}
+
+h3 {
+    font-family: 'Wb Modelica Medium';
+    font-size: clamp(2rem, 2vw + 1rem, 5rem);  
+    margin-bottom: 1rem;
+    color: #022552;
+}
+
+h4 {
+    font-size: clamp(1rem, 0.5vw + 1rem, 10rem);  
+    color: #022552;
+}
+
+p {
+    font-size: clamp(1rem, 0.3vw + 1rem, 12rem);  
+    color: #022552;
+}
+
+.stats-partners {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+    .stats-partners {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+}

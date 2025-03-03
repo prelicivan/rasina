@@ -1,0 +1,78 @@
+.partners-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+    width: 60vw;
+}
+
+
+.heading-partners {
+    text-align: center;
+}
+
+.partners-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.partners-list-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.partner {
+    margin: 0rem 1rem 0rem 1rem;
+    width: calc(35% - 1rem); /* 50% width minus gap */
+    text-align: center;
+}
+
+.partner img {
+    max-width: 290px;
+    max-height: 122px;
+}
+
+.partner-link {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.partner-link:visited {
+    color: inherit; 
+}
+
+.partner-link:hover .partner {
+    opacity: 0.8; 
+}
+
+@media (max-width: 1250px) {
+    .partners-component {
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .partners-list-two  {
+        gap: 2vw;
+    }
+
+    .partner {
+        display: flex;
+        justify-content: center; /* Ensures image centers inside the .partner div */
+        width: 100%; /* Ensures full width for better centering */
+    }
+
+    .partner img {
+        align-self: center;
+        margin: 0 auto; /* Ensures horizontal centering */
+        max-width: 160px;
+    }
+}
+
+
+
+
