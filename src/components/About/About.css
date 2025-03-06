@@ -1,6 +1,6 @@
 .about-us-component {
     position: relative;
-    overflow: hidden; /* Prevents unwanted overflow */
+    overflow: hidden;
 }
 
 /* .about-us-component::before {

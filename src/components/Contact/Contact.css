@@ -44,6 +44,8 @@
 iframe {
     width: 45vw;
     height: 45vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+
 }
 
 @media (max-width: 1225px) {
