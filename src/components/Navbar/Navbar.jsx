@@ -50,13 +50,6 @@ function Navbar() {
                 Kontakt
               </Link>
             </li>
-            <li className="nav-btn">
-              {button ? (
-                <Link to="" className="btn-link" spy={true} smooth={true} offset={50} duration={500}/>
-              ) : (
-                <Link className="btn-link" onClick={closeMobileMenu} spy={true} smooth={true} offset={50} duration={500} />
-              )}
-            </li>
           </ul>
         </div>
       </div>
