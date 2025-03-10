@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
