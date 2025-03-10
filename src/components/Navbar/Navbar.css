@@ -39,7 +39,7 @@
   }
 
   .navbar-img {
-      width: 20vw;
+      width: 25vw;
       height: auto;
   }
 
@@ -83,13 +83,20 @@
     display: none;
   }
   
+@media (min-width: 1300px) {
+  .navbar-img {
+    width: 20vw;
+    height: auto;
+}
+}
+
   @media screen and (max-width: 960px) {
     .navbar-logo {
       padding-left: 1vw;
     }
   
     .navbar-img {
-      width: 75vw;
+      width: 70vw;
     }
   
     .menu-icon {
